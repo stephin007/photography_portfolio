@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 14px;
+    font-weight: normal;
+    height: 100%;
+}
+
+.wrapper{
+    background-image: url(./assets/header-img4.jpg);
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.header{
+    padding: 15px 35px;
+    display: inline-block;
+    width: 100%;
+}
+
+.logo{
+    float: left;
+}
+
+img{
+    max-width: 100%;
+}
+
+.menu{
+    float: right;
+}
+
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    float: left;
+    line-height: 28px;
+    margin-top: 15px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: chocolate;
+    font-size: 24px;
+    padding: 5px 20px;
+    letter-spacing: 3px;
+}
+
+.menu ul li a:hover{
+    color: white;
+    transition: 350ms;
+}
+
+.logo h1{
+    font-family: ;
+}
+
+.name{
+    width: 350px;
+    margin-top: 200px;
+    text-align: right;
+    margin-left: 15px;
+}
+
+.name h5{
+    color: chocolate;
+    font-size: 20px;
+    letter-spacing:5px;
+}
+
+.name h1{
+    color: black;
+    font-size: 140px;
+    line-height: 108px;
+}
+
+
