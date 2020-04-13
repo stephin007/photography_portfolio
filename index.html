@@ -1,29 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
 
-    <link rel="icon" type="image/png" href="/public/assets/favicon.png">
+    <!-- <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"/> -->
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
 
     <title>Chitrahaar</title>
-</head>
-<body>
-    
-    <div class="wrapper">
-        <div class="header">    
-            <div class="logo animated fadeInDownBig">
-                <h1> Chitrahaar</h1>
-            </div>
+  </head>
+  <body>
 
+    <header>
+      <div class="logo">
+        <h1 class="logotext">Chitrahaar</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hometext">
+      <div class="container">
+      <span>Professional PhotoGraphy</span>  
+      <h1>Ketan<br>Amar</h1>
+      <a href="" class="button button-accent">See my Work</a>
+      </div>
+    </section>
+
+    <div class="container-fluid">
+    <section class="about">
+      <div class="about-text">
+        <h1>About me</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium hic fugiat dignissimos saepe quasi vel nesciunt a voluptas eveniet sint.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quos quae corrupti at expedita tenetur labore saepe fugit! Consequatur quibusdam cupiditate id modi. Molestiae provident praesentium eos deleniti, odio laudantium aperiam temporibus saepe repellendus aspernatur minima adipisci maxime quo ipsam in dolorum voluptatem beatae fuga quidem dolores veritatis esse omnis..</p>
+      </div>
+    </section>
+    </div>
+
+    <section class="portfolio">
+      <h1>Some of my Work</h1>
+
+      <!-- portfolio starts here -->
+      <!-- portfolio image 1 -->
+      <figure class="port-item">
+        <img src="assets/p1.jpg" alt="portfolio img 1">
+        <figcaption class="port-desc">
+          <p>Project title</p>
+          <a href="" class="button button-accentn button-small">Project Details</a>
+        </figcaption>
+      </figure>
+      <!-- portfolio image 2 -->
+      <figure class="port-item">
+        <img src="assets/p1.jpg" alt="portfolio img 1">
+        <figcaption class="port-desc">
+          <p>Project title</p>
+          <a href="" class="button button-accentn button-small">Project Details</a>
+        </figcaption>
+      </figure>
+      <!-- portfolio image 3 -->
+      <figure class="port-item">
+        <img src="assets/p1.jpg" alt="portfolio img 1">
+        <figcaption class="port-desc">
+          <p>Project title</p>
+          <a href="" class="button button-accentn button-small">Project Details</a>
+        </figcaption>
+      </figure>
+      <!-- portfolio image 4 -->
+      <figure class="port-item">
+        <img src="assets/p1.jpg" alt="portfolio img 1">
+        <figcaption class="port-desc">
+          <p>Project title</p>
+          <a href="" class="button button-accentn button-small">Project Details</a>
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- <div class="wrapper">
+        <div class="header">
+                
+            <div class="logo animated fadeInDownBig">
+                <h1>CHITRAHAAR</h1>
+            </div>
+            <div class="toggle"></div>
             <div class="menu animated fadeInDownBig">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>
@@ -35,6 +123,19 @@
             <h5>Professional PhotoGraphy</h5>
             <h1>Ketan<br>Amar</h1>
         </div>
-    </div>
-</body>
+    </div> -->
+
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('.toggle').toggleClass('active')
+                $('.menu').toggleClass('active')
+            })
+        })
+
+
+    </script> -->
+  </body>
 </html>
