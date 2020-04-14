@@ -341,6 +341,268 @@ nav a:focus{
     transition-delay: 0.2s;
 }
 
+@media screen and (max-width:1350px){
+    .portfolio .container{
+        width: 1000px;
+        height: 600px;
+        margin: 0px 220px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(449.33px - 30px);
+        height: calc(300px - 30px);
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:1300px){
+    .portfolio .container{
+        width: 1000px;
+        height: 600px;
+        margin: 0px 190px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(449.33px - 30px);
+        height: calc(300px - 30px);
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .portfolio .container{
+        width: 900px;
+        height: 600px;
+        margin: 0px 150px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(449.33px - 30px);
+        height: calc(300px - 30px);
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .portfolio .container{
+        width: 900px;
+        height: 500px;
+        margin: 0px 100px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(449.33px - 30px);
+        height: calc(300px - 30px);
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .portfolio .container{
+        width: 900px;
+        height: 550px;
+        margin: 0px 70px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(449.33px - 30px);
+        height: calc(300px - 30px);
+        margin: 15px;
+    }
+}
+
+
+
+@media screen and (max-width:1000px){
+    .portfolio .container{
+        width: 900px;
+        height: 550px;
+        margin: 0px 45px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(449.33px - 30px);
+        height: calc(300px - 30px);
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:951px){
+    .portfolio .container{
+        width: 900px;
+        height: 500px;
+        margin: 0px 25px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(449.33px - 30px);
+        height: calc(300px - 30px);
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:924px){
+    .portfolio .container{
+        width: 900px;
+        height: 450px;
+        margin: 0px 18px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(449.33px - 30px);
+        height: calc(300px - 30px);
+        margin: 15px;
+    }
+}
+
+
+@media screen and (max-width:875px){
+    .portfolio .container{
+        width: 700px;
+        height: 550px;
+        margin: 0px 50px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(749.33px - 30px);
+        height: calc(400px - 30px);
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:780px){
+    .portfolio .container{
+        width: 700px;
+        height: 550px;
+        margin: 0px 18px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(749.33px - 30px);
+        height: calc(400px - 30px);
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:750px){
+    .portfolio .container{
+        width: 660px;
+        height: 550px;
+        margin: 0px 60px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(630.33px - 30px);
+        height: calc(400px - 30px);
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .portfolio .container{
+        width: 660px;
+        height: 550px;
+        margin: 0px 30px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(649.33px - 30px);
+        height: calc(400px - 30px);
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:654px){
+    .portfolio .container{
+        width: 600px;
+        height: 550px;
+        margin: 0px 0px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(649.33px - 30px);
+        height: calc(400px - 30px);
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .portfolio .container{
+        width: 500px;
+        height: 550px;
+        margin: 0px 0px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(595.33px - 30px);
+        height: calc(400px - 30px);
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .portfolio .container{
+        width: 500px;
+        height: 550px;
+        margin: 0px 15px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(525.33px - 30px);
+        height: calc(400px - 30px);
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .portfolio .container{
+        width: 500px;
+        height: 550px;
+        margin: 0px 0px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(495.33px - 30px);
+        height: calc(300px - 30px);
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:414px){
+    .portfolio .container{
+        width: 400px;
+        height: 500px;
+        margin: 0px 10px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(399.33px - 30px);
+        height: calc(240px - 30px);
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .portfolio .container{
+        width: 300px;
+        height: 500px;
+        margin: 0px 10px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(370.33px - 30px);
+        height: calc(240px - 30px);
+        margin: 15px;
+    }
+}
+@media screen and (max-width:360px){
+    .portfolio .container{
+        width: 300px;
+        height: 500px;
+        margin: 0px 10px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(345.33px - 30px);
+        height: calc(200px - 30px);
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .portfolio .container{
+        width: 300px;
+        height: 500px;
+        margin: 0px -1px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(320.33px - 30px);
+        height: calc(210px - 30px);
+        margin: 15px;
+    }
+}
+
 
 /* .container{
     position: relative;
