@@ -344,7 +344,7 @@ nav a:focus{
 @media screen and (max-width:1350px){
     .portfolio .container{
         width: 1000px;
-        height: 600px;
+        height: 950px;
         margin: 0px 220px 4px;
     }
     .portfolio .container .box{
@@ -357,7 +357,7 @@ nav a:focus{
 @media screen and (max-width:1300px){
     .portfolio .container{
         width: 1000px;
-        height: 600px;
+        height: px;
         margin: 0px 190px 4px;
     }
     .portfolio .container .box{
@@ -370,7 +370,7 @@ nav a:focus{
 @media screen and (max-width:1200px){
     .portfolio .container{
         width: 900px;
-        height: 600px;
+        height: px;
         margin: 0px 150px 4px;
     }
     .portfolio .container .box{
@@ -383,7 +383,7 @@ nav a:focus{
 @media screen and (max-width:1100px){
     .portfolio .container{
         width: 900px;
-        height: 500px;
+        height: px;
         margin: 0px 100px 4px;
     }
     .portfolio .container .box{
@@ -396,7 +396,7 @@ nav a:focus{
 @media screen and (max-width:1024px){
     .portfolio .container{
         width: 900px;
-        height: 550px;
+        height: px;
         margin: 0px 70px 4px;
     }
     .portfolio .container .box{
@@ -411,7 +411,7 @@ nav a:focus{
 @media screen and (max-width:1000px){
     .portfolio .container{
         width: 900px;
-        height: 550px;
+        height: px;
         margin: 0px 45px 4px;
     }
     .portfolio .container .box{
@@ -424,7 +424,7 @@ nav a:focus{
 @media screen and (max-width:951px){
     .portfolio .container{
         width: 900px;
-        height: 500px;
+        height: px;
         margin: 0px 25px 4px;
     }
     .portfolio .container .box{
@@ -437,7 +437,7 @@ nav a:focus{
 @media screen and (max-width:924px){
     .portfolio .container{
         width: 900px;
-        height: 450px;
+        height: px;
         margin: 0px 18px 4px;
     }
     .portfolio .container .box{
@@ -451,7 +451,7 @@ nav a:focus{
 @media screen and (max-width:875px){
     .portfolio .container{
         width: 700px;
-        height: 550px;
+        height: px;
         margin: 0px 50px 4px;
     }
     .portfolio .container .box{
@@ -464,7 +464,7 @@ nav a:focus{
 @media screen and (max-width:780px){
     .portfolio .container{
         width: 700px;
-        height: 550px;
+        height: px;
         margin: 0px 18px 4px;
     }
     .portfolio .container .box{
@@ -477,7 +477,7 @@ nav a:focus{
 @media screen and (max-width:750px){
     .portfolio .container{
         width: 660px;
-        height: 550px;
+        height: px;
         margin: 0px 60px 4px;
     }
     .portfolio .container .box{
@@ -490,7 +490,7 @@ nav a:focus{
 @media screen and (max-width:700px){
     .portfolio .container{
         width: 660px;
-        height: 550px;
+        height: px;
         margin: 0px 30px 4px;
     }
     .portfolio .container .box{
@@ -503,7 +503,7 @@ nav a:focus{
 @media screen and (max-width:654px){
     .portfolio .container{
         width: 600px;
-        height: 550px;
+        height: px;
         margin: 0px 0px 4px;
     }
     .portfolio .container .box{
@@ -516,7 +516,7 @@ nav a:focus{
 @media screen and (max-width:600px){
     .portfolio .container{
         width: 500px;
-        height: 550px;
+        height: px;
         margin: 0px 0px 4px;
     }
     .portfolio .container .box{
@@ -529,7 +529,7 @@ nav a:focus{
 @media screen and (max-width:550px){
     .portfolio .container{
         width: 500px;
-        height: 550px;
+        height: px;
         margin: 0px 15px 4px;
     }
     .portfolio .container .box{
@@ -542,7 +542,7 @@ nav a:focus{
 @media screen and (max-width:500px){
     .portfolio .container{
         width: 500px;
-        height: 550px;
+        height: px;
         margin: 0px 0px 4px;
     }
     .portfolio .container .box{
@@ -555,7 +555,7 @@ nav a:focus{
 @media screen and (max-width:414px){
     .portfolio .container{
         width: 400px;
-        height: 500px;
+        height: px;
         margin: 0px 10px 4px;
     }
     .portfolio .container .box{
@@ -568,7 +568,7 @@ nav a:focus{
 @media screen and (max-width:400px){
     .portfolio .container{
         width: 300px;
-        height: 500px;
+        height: px;
         margin: 0px 10px 4px;
     }
     .portfolio .container .box{
@@ -580,7 +580,7 @@ nav a:focus{
 @media screen and (max-width:360px){
     .portfolio .container{
         width: 300px;
-        height: 500px;
+        height: px;
         margin: 0px 10px 4px;
     }
     .portfolio .container .box{
@@ -593,7 +593,7 @@ nav a:focus{
 @media screen and (max-width:320px){
     .portfolio .container{
         width: 300px;
-        height: 500px;
+        height: px;
         margin: 0px -1px 4px;
     }
     .portfolio .container .box{
@@ -601,6 +601,465 @@ nav a:focus{
         height: calc(210px - 30px);
         margin: 15px;
     }
+}
+
+/* =======contact======= */
+
+.contact-section{
+    background: url(./assets/contact-bg.jpg);
+    background-size: cover;
+    padding-top: 20px;
+    margin-top: 20px;
+    height: 600px;  
+} 
+
+.contact-section h1{
+    text-align: center;
+    padding-top: -10px;
+}
+
+.border{
+    width: 100px;
+    height: 10px;
+    background: goldenrod;
+    margin: 30px auto;
+}
+
+.contact-form  {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #1b4b7a;
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 100px;
+}
+
+.contact-form-btn{
+    margin-left: 220px;
+    border: 0;
+    background: goldenrod;
+    color:black;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+    background: black;
+    color: goldenrod;
+} 
+
+@media screen and (max-width:875px){
+    .contact-section{
+        background: white;
+        padding-left: 10px;
+    }
+    .contact-section h1{
+    text-align: center;
+    margin-top: -100px;
+}
+
+.border{
+    width: 100px;
+    height: 10px;
+    background: goldenrod;
+    margin: 30px auto;
+}
+
+.contact-form  {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    border-radius: 25px;
+    color: #ddd;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #1b4b7a;
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 100px;
+}
+
+.contact-form-btn{
+    margin-left: 220px;
+    border: 0;
+    background: goldenrod;
+    color:black;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+    background: black;
+    color: goldenrod;
+}
+}
+
+
+@media screen and (max-width:411px){
+    .contact-section{
+        background: white;
+        padding-left: 10px;
+    }
+    .contact-section h1{
+    text-align: center;
+    margin-top: -100px;
+}
+
+.border{
+    width: 100px;
+    height: 10px;
+    background: goldenrod;
+    margin: 30px auto;
+}
+
+.contact-form  {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    border-radius: 25px;
+    color: #ddd;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #1b4b7a;
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 100px;
+}
+
+.contact-form-btn{
+    margin-left: 130px;
+    border: 0;
+    background: goldenrod;
+    color:black;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+    background: black;
+    color: goldenrod;
+}
+}
+
+@media screen and (max-width:414px){
+    .contact-section{
+        background: white;
+        padding-left: 10px;
+    }
+    .contact-section h1{
+    text-align: center;
+    margin-top: -100px;
+}
+
+.border{
+    width: 100px;
+    height: 10px;
+    background: goldenrod;
+    margin: 30px auto;
+}
+
+.contact-form  {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    border-radius: 25px;
+    color: #ddd;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #1b4b7a;
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 100px;
+}
+
+.contact-form-btn{
+    margin-left: 130px;
+    border: 0;
+    background: goldenrod;
+    color:black;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+    background: black;
+    color: goldenrod;
+}
+}
+
+@media screen and (max-width:375px){
+    .contact-section{
+        background: white;
+        padding-left: 10px;
+    }
+    .contact-section h1{
+    text-align: center;
+    margin-top: -100px;
+}
+
+.border{
+    width: 100px;
+    height: 10px;
+    background: goldenrod;
+    margin: 30px auto;
+}
+
+.contact-form  {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    border-radius: 25px;
+    color: #ddd;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #1b4b7a;
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 100px;
+}
+
+.contact-form-btn{
+    margin-left: 110px;
+    border: 0;
+    background: goldenrod;
+    color:black;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+    background: black;
+    color: goldenrod;
+}
+}
+
+@media screen and (max-width:360px){
+    .contact-section{
+        background: white;
+        padding-left: 10px;
+    }
+    .contact-section h1{
+    text-align: center;
+    margin-top: -100px;
+}
+
+.border{
+    width: 100px;
+    height: 10px;
+    background: goldenrod;
+    margin: 30px auto;
+}
+
+.contact-form  {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    border-radius: 25px;
+    color: #ddd;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #1b4b7a;
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 100px;
+}
+
+.contact-form-btn{
+    margin-left: 100px;
+    border: 0;
+    background: goldenrod;
+    color:black;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+    background: black;
+    color: goldenrod;
+}
+}
+
+@media screen and (max-width:320px){
+    .contact-section{
+        background: white;
+        padding-left: 10px;
+    }
+    .contact-section h1{
+    text-align: center;
+    margin-top: -100px;
+}
+
+.border{
+    width: 100px;
+    height: 10px;
+    background: goldenrod;
+    margin: 30px auto;
+}
+
+.contact-form  {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    border-radius: 25px;
+    color: #ddd;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #1b4b7a;
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 100px;
+}
+
+.contact-form-btn{
+    margin-left: 75px;
+    border: 0;
+    background: goldenrod;
+    color:black;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+    background: black;
+    color: goldenrod;
+}
 }
 
 
