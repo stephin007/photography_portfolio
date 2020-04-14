@@ -11,8 +11,8 @@ img{
     max-width: 100%;
     height: auto;
 }
-.container{
-    width: 95%;
+.hometext .container{
+    width: 100%;
     margin: 0 auto;
     height: 300px;
 }
@@ -24,7 +24,7 @@ img{
     text-align: center;
     display: block;
     font-size: 1.4em;
-    margin-left: 10px;
+    margin-left: 1px;
     margin-top: 0.2em;
 }
 
@@ -34,6 +34,22 @@ img{
     text-align: center;
 
 } 
+
+@media screen and (min-width: 720px){
+    .hometext h1{
+        font-size: 9em;
+        line-height: 107px;
+        margin-bottom: 100px;
+    }
+    .hometext span{
+    letter-spacing: 1px;
+    text-align: center;
+    display: block;
+    font-size: 2.4em;
+    margin-left: 10px;
+    margin-bottom: -40px;
+}
+}
 
 @media screen and (min-width: 832px){
     .hometext h1{
@@ -64,14 +80,18 @@ img{
     padding: .5em 1.75em;
 }
 
+.button-small{
+    font-size: .7rem;
+}
+
 .button-accent{
     color: chocolate;
 }
 
-.button-accent:hover,
-.button-accent:focus{
+.button-accent:hover{ 
     background:goldenrod;
-    color: white;
+    color: black;
+    transition: 150ms ease-in;
 }
 
 @media screen and (min-width:916px){
@@ -106,7 +126,7 @@ nav li{
 nav a{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.85rem;
+    font-size: 1.0rem;
     padding: .2em;
     color: chocolate;
 }
@@ -135,6 +155,25 @@ nav a:focus{
     color: chocolate;
 }
 }
+@media screen and (min-width: 768px){
+    .logo{
+        font-size: 18px;
+        margin-top: -20px;
+        margin-left: 10px;
+        float: left;
+    }
+
+    nav{
+        float: right;
+    }
+    nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 0.4em;
+    color: chocolate;
+}
+}
 
 /* =======home-bg======= */
 .hometext{
@@ -142,7 +181,7 @@ nav a:focus{
     padding: 10em 0;
     background-size: cover;
     background-attachment: fixed;
-    height: 100%;
+    height: 100vh;
 }
 
 /* ========about-us======= */
@@ -182,6 +221,133 @@ nav a:focus{
         left: 52%;
     }
 }
+
+/* ========portfolio======= */
+
+.portfolio .container{
+    position: relative;
+    width: 1348px;
+    height: 600px;
+    margin: 30px auto  ;
+    /* background: #262626; */
+}
+
+.portfolio .container .box{
+    position: relative;
+    width: calc(449.33px - 30px);
+    height: calc(300px - 30px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0,0,0,.8);
+}
+
+.portfolio .container .box:before{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transform: scaleX(0);
+    opacity: 0;
+    z-index: 1;
+}
+
+.portfolio .container .box:hover:before{
+    transform: scaleX(1);
+    opacity: 1;
+
+}
+
+.portfolio .container .box:after{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transform: scaleY(0);
+    opacity: 0;
+    z-index: 1;
+}
+
+.portfolio .container .box:hover:after{
+    transform: scaleY(1);
+    opacity: 1;   
+}
+
+.portfolio .container .box .imgbox{
+    position: relative;
+}
+
+.portfolio .container .box .imgbox img{
+    width: 100%;
+    transition: 0.5s;
+}
+
+.portfolio .container .box:hover .imgbox img{
+    opacity: .2;
+    transform: scale(1.2);
+}
+
+
+.portfolio .container .box .content{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.portfolio .container .box .content h2{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    transition: 0.5s;
+    transform: translateY(-50px);
+    opacity:0;
+    visibility: hidden;
+}
+
+.portfolio .container .box .content p{
+    margin: 0 0 10px;
+    padding: 0;
+    font-family: monospace;
+    color: #fff;
+    transition: 0.5s;
+    transform: translateY(50px);
+    opacity:0;
+    visibility: hidden;
+}
+
+.portfolio .container .box:hover .content h2,
+.portfolio .container .box:hover .content p{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+    transition-delay: 0.2s;
+}
+
+
+/* .container{
+    position: relative;
+    width: 1200px;
+    margin: 0;
+} */
+
 
 /* @media screen and (min-width:800px){
     .about-text{
