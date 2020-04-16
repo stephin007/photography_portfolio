@@ -685,7 +685,7 @@ nav a:focus{
 }
 .cta .container h1{
     padding-top: 50px;
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Inria sans', cursive;
 }
 
@@ -719,15 +719,20 @@ nav a:focus{
     color: black;
 }
 
-/* @media screen and (min-width: 320px){
-    .cta .container{
-        height: 250px; 
-    }
+@media screen and (min-width: 320px){ 
 
     .cta .container h1{
-    padding-top: 40px;
-    font-size: 30px;
+    padding-top: 45px;
+    font-size: 31px;
     font-family: 'Inria sans', cursive;
+}
+
+.border{
+    width:250px;
+    height:10px;
+    background: goldenrod;
+    border-radius: 20px;
+    margin: -17px auto;
 }
 
 .cta .container span{
@@ -735,21 +740,180 @@ nav a:focus{
 }
 
 .cta .container .button{
+    font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 360px){ 
+
+    .cta .container h1{
+    padding-top: 45px;
+    font-size: 35px;
+    font-family: 'Inria sans', cursive;
+}
+
+.border{
+    width:250px;
+    height:10px;
+    background: goldenrod;
+    border-radius: 20px;
+    margin: -19px auto;
+}
+
+.cta .container span{
+    font-size: 23px;
+}
+}
+
+@media screen and (min-width: 375px){ 
+
+    .cta .container h1{
+    padding-top: 45px;
+    font-size: 37px;
+    font-family: 'Inria sans', cursive;
+}
+
+.border{
+    width:250px;
+    height:10px;
+    background: goldenrod;
+    border-radius: 20px;
+    margin: -17px auto;
+}
+
+.cta .container span{
+    font-size: 20px;
+}
+}
+
+@media screen and (min-width: 393px){ 
+
+    .cta .container h1{
+    padding-top: 45px;
+    font-size: 35px;
+    font-family: 'Inria sans', cursive;
+}
+
+.border{
+    width:250px;
+    height:10px;
+    background: goldenrod;
+    border-radius: 20px;
+    margin: -17.8px auto;
+}
+
+.cta .container span{
+    font-size: 21px;
+}
+
+.cta .container .button{
+    font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: px){ 
+
+    .cta .container h1{
+    padding-top: 45px;
+    font-size: 35px;
+    font-family: 'Inria sans', cursive;
+}
+
+.border{
+    width:250px;
+    height:10px;
+    background: goldenrod;
+    border-radius: 20px;
+    margin: -17.8px auto;
+}
+
+.cta .container span{
+    font-size: 21px;
+}
+
+.cta .container .button{
+    font-size: 1.3rem;
+    }
+}
+
+/* footer */
+.footer-main-div{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    background: #272727;
+}
+.footer-social-icons{
+    width: 100;
+    height: auto;
+    margin: auto;
+}
+
+.footer-social-icons ul{
+    margin: 0px;
+    padding: 10px;
+}
+
+.footer-social-icons ul li{
     display: inline-block;
-    font-size: 1.4rem;
-    text-decoration: none;
-    font-family: monospace;
-    text-transform: capitalize;
-    border-width: 2px;
-    border-radius: 40px;
-    border-style: solid;
-    border-color: black;
-    padding: .5em 1.75em;
-    }
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: goldenrod;
+}
 
-.cta .container .button-accent{
+.footer-social-icons ul li a{
     color: black;
-    }
-} */
+    font-size: 25px;
+    display: block;
+}
 
+.footer-social-icons ul li a i{
+    line-height: 50px;
+}
 
+.footer-main-menu{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.footer-main-menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-main-menu ul li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.footer-main-menu ul li a{
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+
+.footer-bottom{
+    width: 100;
+    height: 50px;
+    margin: auto;
+    background: goldenrod;
+    padding: 2px;
+}
+
+.footer-bottom p{
+    font-family: monospace;
+    text-transform: lowercase;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.footer-bottom p a{
+    color: black;
+}
