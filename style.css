@@ -362,7 +362,7 @@ nav a:focus{
 }
 
 .portfolio .container .box .imgbox .pf14{
-    width: 49%;
+    width: 40%;
     height: 100%;
 }
 .portfolio .container .box:hover .imgbox img{
@@ -412,26 +412,26 @@ nav a:focus{
 
 @media screen and (max-width:2560px){
     .portfolio .container{
-        width: 2300px;
-        height: 800px;
-        margin: 0px 250px 4px;
+        width: 2200px;
+        height: 4200px;
+        margin: 0px 325px 4px;
     }
     .portfolio .container .box{
-        width: calc(655.33px - 30px);
-        height: calc(400px - 30px);
+        width: calc(945.33px - 30px);
+        height: calc(600px - 30px);
         margin: 15px;
     }
 }
 
-@media screen and (max-width:1600){
+@media screen and (max-width:1600px){
     .portfolio .container{
-        width: 1300px;
-        height: 950px;
-        margin: 0px 220px 4px;
+        width: 1100px;
+        height: 2400px;
+        margin: 0px 250px 4px;
     }
     .portfolio .container .box{
-        width: calc(649.33px - 30px);
-        height: calc(300px - 30px);
+        width: calc(545.33px - 30px);
+        height: calc(370px - 30px);
         margin: 15px;
     }
 }
@@ -440,11 +440,11 @@ nav a:focus{
     .portfolio .container{
         width: 1150px;
         height: 850px;
-        margin: 0px 270px 4px;
+        margin: 0px 190px 4px;
     }
     .portfolio .container .box{
-        width: calc(430.33px - 30px);
-        height: calc(295px - 30px);
+        width: calc(530.33px - 30px);
+        height: calc(350px - 30px);
         margin: 15px;
     }
 }
@@ -452,8 +452,8 @@ nav a:focus{
 @media screen and (max-width:1400px){
     .portfolio .container{
         width: 1100px;
-        height: 900px;
-        margin: 0px 190px 4px;
+        height: 2050px;
+        margin: 0px 180px 4px;
     }
     .portfolio .container .box{
         width: calc(500.33px - 30px);
@@ -491,7 +491,7 @@ nav a:focus{
 @media screen and (max-width:1024px){
     .portfolio .container{
         width: 850px;
-        height: 186em;
+        height: 6950px;
         margin: 0px 135px 4px;
     }
     .portfolio .container .box{
