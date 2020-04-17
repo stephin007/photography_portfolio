@@ -1,3 +1,8 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
 *{
     box-sizing: border-box;
 }
@@ -410,6 +415,19 @@ nav a:focus{
     transition-delay: 0.2s;
 }
 
+@media screen and (max-width:2880px){
+    .portfolio .container{
+        width: 2200px;
+        height: 4200px;
+        margin: 0px 480px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(945.33px - 30px);
+        height: calc(600px - 30px);
+        margin: 15px;
+    }
+}
+
 @media screen and (max-width:2560px){
     .portfolio .container{
         width: 2200px;
@@ -426,7 +444,7 @@ nav a:focus{
 @media screen and (max-width:1600px){
     .portfolio .container{
         width: 1100px;
-        height: 2400px;
+        height: 2545px;
         margin: 0px 250px 4px;
     }
     .portfolio .container .box{
@@ -439,7 +457,7 @@ nav a:focus{
 @media screen and (max-width:1440px){
     .portfolio .container{
         width: 1150px;
-        height: 850px;
+        height: 2425px;
         margin: 0px 190px 4px;
     }
     .portfolio .container .box{
@@ -465,7 +483,7 @@ nav a:focus{
 @media screen and (max-width:1200px){
     .portfolio .container{
         width: 1020px;
-        height: 900px;
+        height: 2040px;
         margin: 0px 105px 4px;
     }
     .portfolio .container .box{
@@ -478,7 +496,7 @@ nav a:focus{
 @media screen and (max-width:1100px){
     .portfolio .container{
         width: 1020px;
-        height:900px;
+        height: 2080px;
         margin: 0px 50px 4px;
     }
     .portfolio .container .box{
@@ -504,7 +522,7 @@ nav a:focus{
 @media screen and (max-width:1000px){
     .portfolio .container{
         width: 970px;
-        height: 890px;
+        height: 1995px;
         margin: 0px 30px 4px;
     }
     .portfolio .container .box{
@@ -519,7 +537,7 @@ nav a:focus{
 @media screen and (max-width:900px){
     .portfolio .container{
         width: 850px;
-        height: 800px;
+        height: 1910px;
         margin: 0px 30px 4px;
     }
     .portfolio .container .box{
@@ -532,7 +550,7 @@ nav a:focus{
 @media screen and (max-width:800px){
     .portfolio .container{
         width: 750px;
-        height: 187em;
+        height: 435em;
         margin: 0px 25px 4px;
     }
     .portfolio .container .box{
@@ -545,7 +563,7 @@ nav a:focus{
 @media screen and (max-width:768px){
     .portfolio .container{
         width: 690px;
-        height: 186em;
+        height: 430em;
         margin: 0px 10px 4px;
     }
     .portfolio .container .box{
@@ -558,7 +576,7 @@ nav a:focus{
 @media screen and (max-width:700px){
     .portfolio .container{
         width: 650px;
-        height: 165em;
+        height: 379em;
         margin: 0px 25px 4px;
     }
     .portfolio .container .box{
@@ -571,7 +589,7 @@ nav a:focus{
 @media screen and (max-width:600px){
     .portfolio .container{
         width: 550px;
-        height: 140em;
+        height: 320em;
         margin: 0px 25px 4px;
     }
     .portfolio .container .box{
@@ -584,7 +602,7 @@ nav a:focus{
 @media screen and (max-width:500px){
     .portfolio .container{
         width: 450px;
-        height: 110em;
+        height: 258em;
         margin: 0px 25px 4px;
     }
     .portfolio .container .box{
@@ -597,7 +615,7 @@ nav a:focus{
 @media screen and (max-width:425px){
     .portfolio .container{
         width: 350px;
-        height: 1400px;
+        height: 3300px;
         margin: 0px 20px 4px;
     }
     .portfolio .container .box{
@@ -610,7 +628,7 @@ nav a:focus{
 @media screen and (max-width:414px){
     .portfolio .container{
         width: 395px;
-        height: 95em;
+        height: 223em;
         margin: 0px 15px 4px;
     }
     .portfolio .container .box{
@@ -623,7 +641,7 @@ nav a:focus{
 @media screen and (max-width:393px){
     .portfolio .container{
         width: 200px;
-        height: 89em;
+        height: 203.5em;
         margin: 0px
         25px 4px;
     }
@@ -637,7 +655,7 @@ nav a:focus{
 @media screen and (max-width:375px){
     .portfolio .container{
         width: 300px;
-        height: 89em;
+        height: 204em;
         margin: 0px
         15px 4px;
     }
@@ -653,7 +671,7 @@ nav a:focus{
 @media screen and (max-width:360px){
     .portfolio .container{
         width: 300px;
-        height: 89em;
+        height: 205em;
         margin: 0px
         10px 4px;
     }
@@ -667,7 +685,7 @@ nav a:focus{
 @media screen and (max-width:320px){
     .portfolio .container{
         width: 290px;
-        height: 75em;
+        height: 175em;
         margin: 0px 10px 4px;
     }
     .portfolio .container .box{
@@ -917,3 +935,38 @@ nav a:focus{
 .footer-bottom p a{
     color: black;
 }
+
+@media screen and (min-width:320px){
+    .footer-bottom p{
+    font-size: 11px;
+    padding-top: 4.5px;
+    }
+}
+
+@media screen and (min-width:360px){
+    .footer-bottom p{
+    font-size: 11px;
+    padding-top: 4.5px;
+    }
+}
+
+@media screen and (min-width:393px){
+    .footer-bottom p{
+    font-size: 11px;
+    padding-top: 4.5px;
+    }
+}
+
+@media screen and (min-width:414px){
+    .footer-bottom p{
+    font-size: 13px;
+    padding-top: 4px;
+    }
+}
+
+/* @media screen and (min-width:320px){
+    .footer-bottom p{
+    font-size: 11px;
+    padding-top: 4.5px;
+    }
+} */
