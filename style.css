@@ -175,7 +175,9 @@ nav a:focus{
 
     nav{
         float: right;
+        margin-top: -30px;
     }
+
     nav a{
     text-decoration: none;
     text-transform: uppercase;
@@ -195,6 +197,12 @@ nav a:focus{
     nav{
         float: right;
     }
+
+    nav ul{
+    margin: 0;
+    padding-top: 30px;
+    list-style: none;
+    }
     nav a{
     text-decoration: none;
     text-transform: uppercase;
@@ -204,7 +212,7 @@ nav a:focus{
 }
 }
 
-@media screen and (min-width: 320px){
+/* @media screen and (min-width: 320px){
     .logo{
         font-size: 12px;
         margin-top: -20px;
@@ -212,9 +220,11 @@ nav a:focus{
     }
 
     nav{
-        /* float: right; */
+        float: right;
         font-size: 15px;
     }
+
+
     nav a{
     text-decoration: none;
     text-transform: uppercase;
@@ -232,10 +242,19 @@ nav a:focus{
     }
 
     nav{
-        /* float: right; */
+        float: right;
         font-size: 10px;
         margin-top: -2em;
+        margin-right: 57px;
     }
+
+    nav ul{
+    margin: 0;
+    margin-left: -10px;
+    padding-top: 30px;
+    list-style: none;
+    }
+
     nav a{
     text-decoration: none;
     text-transform: uppercase;
@@ -243,7 +262,7 @@ nav a:focus{
     padding: 10px;
     color: chocolate;
 }
-}
+} */
 
 /* =======home-bg======= */
 .hometext{
