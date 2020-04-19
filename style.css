@@ -40,6 +40,23 @@ img{
 
 } 
 
+@media screen and (min-width: 393px){
+    .hometext h1{
+        font-size: 6em;
+        line-height: 70px;
+        margin-top: 90px;
+    }
+    .hometext span{
+    letter-spacing: 1px;
+    text-align: center;
+    display: block;
+    font-size: 1.4em;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+}
+
 @media screen and (min-width: 720px){
     .hometext h1{
         font-size: 9em;
@@ -207,6 +224,27 @@ nav a:focus{
 }
 }
 
+@media screen and (min-width: 393px){
+    .logo{
+        font-size: 17px;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+    nav{
+        /* float: right; */
+        font-size: 10px;
+        margin-top: -2em;
+    }
+    nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px;
+    color: chocolate;
+}
+}
+
 /* =======home-bg======= */
 .hometext{
     background-image: url(assets/header-img4.jpg);
@@ -215,6 +253,8 @@ nav a:focus{
     background-attachment: fixed;
     height: 100vh;
 }
+
+
 
 /* ========about-us======= */
 
