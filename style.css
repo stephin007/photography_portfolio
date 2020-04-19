@@ -99,11 +99,18 @@ img{
     transition: 150ms ease-in;
 }
 
+@media screen and (min-width:320px){
+    .button{
+        font-size: 1rem;
+    }
+}
+
 @media screen and (min-width:916px){
     .button{
         font-size: 1.7rem;
     }
 }
+
 
 /* ======header====== */
 header{
@@ -180,10 +187,30 @@ nav a:focus{
 }
 }
 
+@media screen and (min-width: 320px){
+    .logo{
+        font-size: 12px;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+    nav{
+        /* float: right; */
+        font-size: 15px;
+    }
+    nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12.5px;
+    padding: 0.4em;
+    color: chocolate;
+}
+}
+
 /* =======home-bg======= */
 .hometext{
     background-image: url(assets/header-img4.jpg);
-    padding: 10em 0;
+    padding: 6em 0;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
