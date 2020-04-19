@@ -1011,7 +1011,7 @@ nav a:focus{
 
 .footer-bottom p{
     font-family: monospace;
-    text-transform: lowercase;
+    text-transform: capitalize;
     font-size: 16px;
     color: #fff;
     font-weight: 600;
