@@ -1020,6 +1020,7 @@ nav a:focus{
 
 .footer-bottom p a{
     color: black;
+    text-transform: lowercase;
 }
 
 @media screen and (min-width:320px){
