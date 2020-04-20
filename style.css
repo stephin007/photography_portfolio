@@ -30,7 +30,7 @@ img{
     display: block;
     font-size: 1.4em;
     margin-left: 1px;
-    margin-top: 0.2em;
+    margin-top: 2.9em;
 }
 
 .hometext h1{
@@ -144,6 +144,7 @@ header{
 nav ul{
     margin: 0;
     padding: 0;
+    margin-top: -20px;
     list-style: none;
 }
 
@@ -155,8 +156,8 @@ nav li{
 nav a{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1.0rem;
-    padding: .2em;
+    font-size: 15.5px;
+    padding: 0.3px;
     color: chocolate;
 }
 
@@ -714,6 +715,19 @@ nav a:focus{
 @media screen and (max-width:414px){
     .portfolio .container{
         width: 395px;
+        height: 223em;
+        margin: 0px 15px 4px;
+    }
+    .portfolio .container .box{
+        width: calc(380.33px - 30px);
+        height: calc(260px - 30px);
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:412px){
+    .portfolio .container{
+        width: 350px;
         height: 223em;
         margin: 0px 15px 4px;
     }
