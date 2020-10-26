@@ -2,7 +2,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/stephin007/photography_portfolio)
 [![GitHub forks](https://img.shields.io/github/forks/stephin007/photography_portfolio)](https://github.com/stephin007/photography_portfolio/network)
 [![GitHub stars](https://img.shields.io/github/stars/stephin007/photography_portfolio)](https://github.com/stephin007/photography_portfolio/stargazers)
-[![GitHub license](https://img.shields.io/github/license/stephin007/photography_portfolio)](https://github.com/stephin007/photography_portfolio)
+[![GitHub license](https://img.shields.io/github/license/stephin007/photography_portfolio)](https://github.com/stephin007/photography_portfolio/blob/master/LICENSE)
 
 # Photography Portfolio
 ![image](https://i.ibb.co/vmgKTyp/Screenshot-38.png)
